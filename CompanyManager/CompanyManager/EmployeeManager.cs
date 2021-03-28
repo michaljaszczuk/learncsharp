@@ -4,13 +4,10 @@ using System.Text;
 
 namespace CompanyManager
 {
-    abstract class EmployeeManager
+    interface IEmployeeManager
     {
-        public abstract void SalaryRise();
-        public void HireEmployee()
-        { }
-        public void FireEmployee()
-        { }
-        
+        void SalaryRise();
+        void HireEmployee();
+        void FireEmployee();               
     }
 }
