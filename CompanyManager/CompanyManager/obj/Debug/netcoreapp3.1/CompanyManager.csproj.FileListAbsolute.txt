@@ -1,0 +1,13 @@
+C:\Users\micha\source\repos\learncsharp\CompanyManager\CompanyManager\bin\Debug\netcoreapp3.1\CompanyManager.exe
+C:\Users\micha\source\repos\learncsharp\CompanyManager\CompanyManager\bin\Debug\netcoreapp3.1\CompanyManager.deps.json
+C:\Users\micha\source\repos\learncsharp\CompanyManager\CompanyManager\bin\Debug\netcoreapp3.1\CompanyManager.runtimeconfig.json
+C:\Users\micha\source\repos\learncsharp\CompanyManager\CompanyManager\bin\Debug\netcoreapp3.1\CompanyManager.runtimeconfig.dev.json
+C:\Users\micha\source\repos\learncsharp\CompanyManager\CompanyManager\bin\Debug\netcoreapp3.1\CompanyManager.dll
+C:\Users\micha\source\repos\learncsharp\CompanyManager\CompanyManager\bin\Debug\netcoreapp3.1\CompanyManager.pdb
+C:\Users\micha\source\repos\learncsharp\CompanyManager\CompanyManager\obj\Debug\netcoreapp3.1\CompanyManager.csprojAssemblyReference.cache
+C:\Users\micha\source\repos\learncsharp\CompanyManager\CompanyManager\obj\Debug\netcoreapp3.1\CompanyManager.AssemblyInfoInputs.cache
+C:\Users\micha\source\repos\learncsharp\CompanyManager\CompanyManager\obj\Debug\netcoreapp3.1\CompanyManager.AssemblyInfo.cs
+C:\Users\micha\source\repos\learncsharp\CompanyManager\CompanyManager\obj\Debug\netcoreapp3.1\CompanyManager.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\learncsharp\CompanyManager\CompanyManager\obj\Debug\netcoreapp3.1\CompanyManager.dll
+C:\Users\micha\source\repos\learncsharp\CompanyManager\CompanyManager\obj\Debug\netcoreapp3.1\CompanyManager.pdb
+C:\Users\micha\source\repos\learncsharp\CompanyManager\CompanyManager\obj\Debug\netcoreapp3.1\CompanyManager.genruntimeconfig.cache
