@@ -10,4 +10,6 @@ namespace CompanyManager
         void HireEmployee();
         void FireEmployee();               
     }
+
+    
 }
