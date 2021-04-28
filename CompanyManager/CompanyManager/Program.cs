@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CompanyManager
 {
@@ -7,9 +8,7 @@ namespace CompanyManager
         static void Main(string[] args)
         {
             Console.WriteLine(" \t \t * * * COMPANY MANAGER APP * * *");
-
-
-
+            
         }
     }
 }

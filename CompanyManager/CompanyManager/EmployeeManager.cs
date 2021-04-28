@@ -9,7 +9,5 @@ namespace CompanyManager
         void SalaryRise();
         void HireEmployee();
         void FireEmployee();               
-    }
-
-    
+    }    
 }

@@ -13,17 +13,13 @@ namespace CompanyManager
         protected int Salary { get; set; }
         public abstract void CalculateSalary();
     }
- 
-
     class HourlyEmployee : Employee
     {
         public override void CalculateSalary()
         {
             const double hourly = 14.70;
-            double salaryAnnualy = 2 * hourly + 1000;            
-        }
-    }
-
+            double salaryAnnualy = 2 * hourly + 1000;
+        }      
     class SalariedEmployee : Employee
     {
         public override void CalculateSalary()
@@ -33,7 +29,6 @@ namespace CompanyManager
             double salaryAnnualy = 2 * hourly + 3 * quarterlyBonus + 1000;
         }
     }
-
     class Manager : Employee
     {
         public override void CalculateSalary()
@@ -44,7 +39,6 @@ namespace CompanyManager
             double salaryAnnualy = 2 * hourly + 3 * quarterlyBonus + departmentComission + 1000;
         }
     }
-
     class Executive : Employee
     {
         public override void CalculateSalary()
