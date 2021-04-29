@@ -17,7 +17,7 @@ namespace CompanyManager
     {
         public override void CalculateSalary()
         {
-            const double hourly = 14.70;
+            double hourly = 14.70;
             double salaryAnnualy = 2 * hourly + 1000;
         }
     }
@@ -25,8 +25,8 @@ namespace CompanyManager
     {
         public override void CalculateSalary()
         {
-            const int quarterlyBonus = 800;
-            const double hourly = 20;
+            int quarterlyBonus = 800;
+            double hourly = 20;
             double salaryAnnualy = 2 * hourly + 3 * quarterlyBonus + 1000;
         }
     }
@@ -34,9 +34,9 @@ namespace CompanyManager
     {
         public override void CalculateSalary()
         {
-            const int quarterlyBonus = 1000;
-            const double departmentComission = quarterlyBonus * 2.3;
-            const double hourly = 20;
+            int quarterlyBonus = 1000;
+            double departmentComission = quarterlyBonus * 2.3;
+            double hourly = 20;
             double salaryAnnualy = 2 * hourly + 3 * quarterlyBonus + departmentComission + 1000;
         }
     }
@@ -44,9 +44,9 @@ namespace CompanyManager
     {
         public override void CalculateSalary()
         {
-            const int quarterlyBonus = 5000;
-            const double departmentComission = quarterlyBonus * 7.8;
-            const double hourly = 38;
+            int quarterlyBonus = 5000;
+            double departmentComission = quarterlyBonus * 7.8;
+            double hourly = 38;
             double salaryAnnualy = 2 * hourly + 3 * quarterlyBonus + departmentComission + 1000;
         }
     }
