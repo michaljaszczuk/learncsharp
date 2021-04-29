@@ -19,7 +19,8 @@ namespace CompanyManager
         {
             const double hourly = 14.70;
             double salaryAnnualy = 2 * hourly + 1000;
-        }      
+        }
+    }
     class SalariedEmployee : Employee
     {
         public override void CalculateSalary()
