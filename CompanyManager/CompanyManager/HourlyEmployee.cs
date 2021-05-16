@@ -18,11 +18,12 @@ namespace CompanyManager
             if (IsEmployed != true)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("This employe no longer works here");
+                Console.WriteLine("This employee no longer works here");
                 Console.ResetColor();
             }
             Console.WriteLine("ID: " + ID + "\n" + "Name: " + Name + "\n" +  "Position: Hourly Employee");
         }
+
 
 
     }
