@@ -1,23 +1,22 @@
-﻿using BlazorRest_GraphQL.DTOs;
+﻿using BlazorRest_GraphQL.DataServices;
+using BlazorRest_GraphQL.DTOs;
 using Microsoft.AspNetCore.Components;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.Http;
-using System.Net.Http.Json;
 using System.Threading.Tasks;
 
 namespace BlazorRest_GraphQL.Pages
 {
-    public partial class FetchData
+    public partial class Launches
     {
         [Inject]
-        private HttpClient Http { get; set; }
+        ISpaceXDataService SpaceXDataService { get; set; }
         private LaunchDto[] launches;
-
         protected override async Task OnInitializedAsync()
         {
-            launches = await Http.GetFromJsonAsync<LaunchDto[]>("/rest/launches/");
+            launches = await SpaceXDataService.GetAllLaunches();
+            
         }
     }
 }

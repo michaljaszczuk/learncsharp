@@ -630,3 +630,8 @@ C:\Users\micha\source\repos\BlazorRest_GraphQL\BlazorRest_GraphQL\obj\Debug\net5
 C:\Users\micha\source\repos\BlazorRest_GraphQL\BlazorRest_GraphQL\obj\Debug\net5.0\BlazorRest_GraphQL.dll
 C:\Users\micha\source\repos\BlazorRest_GraphQL\BlazorRest_GraphQL\obj\Debug\net5.0\ref\BlazorRest_GraphQL.dll
 C:\Users\micha\source\repos\BlazorRest_GraphQL\BlazorRest_GraphQL\obj\Debug\net5.0\BlazorRest_GraphQL.pdb
+C:\Users\micha\source\repos\BlazorRest_GraphQL\BlazorRest_GraphQL\obj\Debug\net5.0\RazorDeclaration\Pages\Launches.razor.g.cs
+C:\Users\micha\source\repos\BlazorRest_GraphQL\BlazorRest_GraphQL\obj\Debug\net5.0\Razor\Pages\Launches.razor.g.cs
+C:\Users\micha\source\repos\BlazorRest_GraphQL\BlazorRest_GraphQL\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Http.dll.gz
+C:\Users\micha\source\repos\BlazorRest_GraphQL\BlazorRest_GraphQL\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Http.dll
+C:\Users\micha\source\repos\BlazorRest_GraphQL\BlazorRest_GraphQL\obj\Debug\net5.0\build-gz\HlO+L+fp.gz

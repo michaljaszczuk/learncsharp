@@ -1,10 +1,6 @@
-﻿@page "/fetchdata"
+﻿@page "/launches"
 
-
-
-<h1>SpaceX launches</h1>
-
-<p>Launch data from SpaceX REST API.</p>
+<h3>SpaceX Launches</h3>
 
 @if (launches == null)
 {
@@ -33,4 +29,8 @@ else
             }
         </tbody>
     </table>
+}
+
+@code {
+
 }
