@@ -1,9 +1,6 @@
 ﻿using BlazorRest_GraphQL.DataServices;
 using BlazorRest_GraphQL.DTOs;
 using Microsoft.AspNetCore.Components;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace BlazorRest_GraphQL.Pages

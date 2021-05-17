@@ -1,7 +1,4 @@
 ﻿using BlazorRest_GraphQL.DTOs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
