@@ -85,3 +85,5 @@ C:\Users\micha\source\repos\learncsharp\GraphQL_API\GraphQL_API\obj\Debug\net5.0
 C:\Users\micha\source\repos\learncsharp\GraphQL_API\GraphQL_API\obj\Debug\net5.0\ref\GraphQL_API.dll
 C:\Users\micha\source\repos\learncsharp\GraphQL_API\GraphQL_API\obj\Debug\net5.0\GraphQL_API.pdb
 C:\Users\micha\source\repos\learncsharp\GraphQL_API\GraphQL_API\obj\Debug\net5.0\GraphQL_API.genruntimeconfig.cache
+C:\Users\micha\source\repos\learncsharp\GraphQL_API\GraphQL_API\bin\Debug\net5.0\Humanizer.dll
+C:\Users\micha\source\repos\learncsharp\GraphQL_API\GraphQL_API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll

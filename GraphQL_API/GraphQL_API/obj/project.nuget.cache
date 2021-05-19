@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Zft6SqEwTqBaA7Bq9IfFOuGLreyV8m1wBdFh9pOlKPRmYqySEXxlQj6bi1gLRLkN0aM0bzYix2NnbbuD1L4xvw==",
+  "dgSpecHash": "GyF9z3pp4wmVo7NFZD8BN8QrylMhexMsphH6j5tE+YwknJI8RcgS4e9OC1/qtFnY2M5k7yZVLMqRWpTrFcyulQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\micha\\source\\repos\\learncsharp\\GraphQL_API\\GraphQL_API\\GraphQL_API.csproj",
   "expectedPackageFiles": [
@@ -27,6 +27,7 @@
     "C:\\Users\\micha\\.nuget\\packages\\hotchocolate.utilities\\11.2.2\\hotchocolate.utilities.11.2.2.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\hotchocolate.utilities.introspection\\11.2.2\\hotchocolate.utilities.introspection.11.2.2.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\hotchocolate.validation\\11.2.2\\hotchocolate.validation.11.2.2.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
@@ -34,8 +35,10 @@
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.6\\microsoft.entityframeworkcore.5.0.6.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.6\\microsoft.entityframeworkcore.abstractions.5.0.6.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.6\\microsoft.entityframeworkcore.analyzers.5.0.6.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.6\\microsoft.entityframeworkcore.design.5.0.6.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.6\\microsoft.entityframeworkcore.relational.5.0.6.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.6\\microsoft.entityframeworkcore.sqlserver.5.0.6.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.6\\microsoft.entityframeworkcore.tools.5.0.6.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
