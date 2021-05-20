@@ -43,7 +43,7 @@ namespace GraphQL_API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("FoodData");
+                    b.ToTable("FoodTable");
                 });
 #pragma warning restore 612, 618
         }

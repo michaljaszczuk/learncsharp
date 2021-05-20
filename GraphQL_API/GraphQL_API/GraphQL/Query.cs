@@ -9,7 +9,7 @@ namespace GraphQL_API.GraphQL
     {
         public IQueryable<Food> GetFood([Service] AppDbContext context)
         {
-            return context.FoodData;
+            return context.FoodTable;
         }
     }
 }

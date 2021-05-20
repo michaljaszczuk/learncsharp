@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GraphQL_API.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20210519161749_AddFoodDataToDb")]
-    partial class AddFoodDataToDb
+    [Migration("20210519191120_AddFoodTableToDb")]
+    partial class AddFoodTableToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -45,7 +45,7 @@ namespace GraphQL_API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("FoodData");
+                    b.ToTable("FoodTable");
                 });
 #pragma warning restore 612, 618
         }

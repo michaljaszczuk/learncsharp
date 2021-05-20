@@ -2,12 +2,12 @@
 
 namespace GraphQL_API.Migrations
 {
-    public partial class AddFoodDataToDb : Migration
+    public partial class AddFoodTableToDb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "FoodData",
+                name: "FoodTable",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -20,14 +20,14 @@ namespace GraphQL_API.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_FoodData", x => x.Id);
+                    table.PrimaryKey("PK_FoodTable", x => x.Id);
                 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "FoodData");
+                name: "FoodTable");
         }
     }
 }
