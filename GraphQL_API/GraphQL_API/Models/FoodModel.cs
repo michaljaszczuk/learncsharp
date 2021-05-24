@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GraphQL_API.Models
 {
-    public class Food
+    public class FoodModel
     {
         [Key]
         public int Id { get; set; }

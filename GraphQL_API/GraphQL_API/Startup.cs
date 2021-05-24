@@ -1,6 +1,7 @@
 using GraphQL.Server.Ui.Voyager;
 using GraphQL_API.Data;
 using GraphQL_API.GraphQL;
+using GraphQL_API.GraphQL.Food;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -28,6 +29,7 @@ namespace GraphQL_API
             services
                 .AddGraphQLServer()
                 .AddQueryType<Query>()
+                .AddType<FoodType>()
                 .AddFiltering()
                 .AddSorting();
            

@@ -1,8 +1,10 @@
 ﻿using GraphQL_API.Data;
 using GraphQL_API.Models;
 using HotChocolate;
+using HotChocolate.Types;
 using HotChocolate.Data;
 using System.Linq;
+
 
 namespace GraphQL_API.GraphQL
 {
@@ -11,7 +13,7 @@ namespace GraphQL_API.GraphQL
         [UseDbContext(typeof(AppDbContext))]
         [UseFiltering]
         [UseSorting]
-        public IQueryable<Food> GetFood([ScopedService] AppDbContext context)
+        public IQueryable<FoodModel> GetFood([ScopedService] AppDbContext context)
         {
             return context.FoodTable;
         }

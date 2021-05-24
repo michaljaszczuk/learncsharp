@@ -13,6 +13,6 @@ namespace GraphQL_API.Data
         {
             
         }
-        public DbSet<Food> FoodTable { get; set; }
+        public DbSet<FoodModel> FoodTable { get; set; }
     }
 }
