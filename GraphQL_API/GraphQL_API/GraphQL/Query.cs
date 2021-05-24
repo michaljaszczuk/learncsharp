@@ -9,6 +9,8 @@ namespace GraphQL_API.GraphQL
     public class Query
     {
         [UseDbContext(typeof(AppDbContext))]
+        [UseFiltering]
+        [UseSorting]
         public IQueryable<Food> GetFood([ScopedService] AppDbContext context)
         {
             return context.FoodTable;
