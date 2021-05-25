@@ -30,8 +30,11 @@ namespace GraphQL_API
                 .AddGraphQLServer()
                 .AddQueryType<Query>()
                 .AddType<FoodType>()
+                .AddSubscriptionType<Subscription>()
+                .AddInMemorySubscriptions()
                 .AddFiltering()
                 .AddSorting();
+            
            
         }
 
@@ -42,6 +45,8 @@ namespace GraphQL_API
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseWebSockets();
 
             app.UseRouting();
 
